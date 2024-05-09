@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Card Components</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+    <div class="bg-dark pt-4 pb-4">
+        <h1 class="text-center text-light ">Indian Dance Forms</h1>
+    </div>
+    <div class="container mt-4">
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://www.shutterstock.com/image-photo/beautiful-indian-girl-dancer-posture-600nw-519176539.jpg"
+                                class="card-img-top" alt="Placeholder image">
+
+
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1>Bharatanatyam</h1>
+                            <p>Bharatanatyam, originating from Tamil Nadu, is a classical dance form renowned for its
+                                intricate footwork and expressive storytelling, blending tradition with spirituality and
+                                artistic expression.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center bg-dark">
+                        <a href="#" class="button is-light">Know More</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Shinjini_kathak_dance_indian_classical_in_traditional_attire.jpg"
+                                class="card-img-top" alt="Placeholder image">
+
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1>Kathak</h1>
+                            <p>Kathak, a classical dance from North India, is characterized by intricate footwork and
+                                emotive storytelling, blending tradition Kathak combines rhythmic footwork with
+                                innovation.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center bg-dark">
+                        <a href="#" class="button is-light">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://media.istockphoto.com/id/1639085630/photo/odissi-pose-photoshoot.jpg?s=170667a&w=0&k=20&c=79iR03N537b7cP71aJGs6yjsO-PHY4Zxm10Fc9dGJGI="
+                                class="card-img-top" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1>Odissi</h1>
+                            <p>Odissi, from Odisha, is a classical dance marked by its graceful movements and expressive
+                                storytelling, captivating audiences with its intricate choreography and cultural
+                                richness.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center bg-dark">
+                        <a href="#" class="button is-light">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="data:image/jpeg;base64,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"
+                                    class="card-img-top" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1>Kuchipudi</h1>
+                                <p>Kuchipudi, from Andhra Pradesh, is a classical dance featuring dynamic footwork and
+                                    expressive storytelling, blending tradition with elegance and cultural narrative.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-center bg-dark">
+                            <a href="#" class="button is-light">Know More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://i.pinimg.com/736x/ae/85/93/ae85937c7721f368968a5bb8fdbf11a0.jpg"
+                                    class="card-img-top" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1>Kathakali</h1>
+                                <p>Kathakali, a classical dance-drama from Kerala, mesmerizes with its intricate makeup,
+                                    intense expressions, embodying mythological tales with unparalleled theatricality
+                                    and grace.</p>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-center bg-dark">
+                            <a href="#" class="button is-light">Know More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://live.staticflickr.com/5549/12054332175_80b3eb536e_b.jpg"
+                                    class="card-img-top" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1>Mohiniyattam</h1>
+                                <p>Mohiniyattam, from Kerala, embodies grace and storytelling with its fluid movements
+                                    and subtle expressions, reflecting themes of love and devotion through lyrical
+                                    beauty and feminine charm.</p>
+                            </div>
+
+                        </div>
+                        <div class="card-footer  d-flex justify-content-center bg-dark">
+                            <a href="#" class="button is-light">Know More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://media.istockphoto.com/id/1652330795/photo/beautiful-sattriya-dancer-in-various-poses.jpg?s=612x612&w=0&k=20&c=ycDXQT1kYtLga6YWJfIrdAvzMh68oyujTkHGAKKGNVY="
+                                        class="card-img-top" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h1>Sattriya</h1>
+                                    <p>Sattriya, from Assam, is a classical dance form revered for its devotional themes
+                                        , weaving traditional Assamese music and storytelling to depict Hindu mythology
+                                        with elegance and reverence.</p>
+                                </div>
+                            </div>
+                       
+                        <div class="card-footer  d-flex justify-content-center bg-dark">
+                            <a href="#" class="button is-light">Know More</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://static.toiimg.com/thumb/94476692.cms?width=400&height=300&resizemode=4&imgsize=1531383"
+                                        class="card-img-top" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h1>Garba</h1>
+                                    <p>Garba, a Gujarati folk dance, embodies joy and celebration during Navratri,
+                                        characterized by rhythmic movements and vibrant costumes, fostering cultural
+                                        unity and devotion to the goddess Amba.</p>
+                                </div>
+                            </div>
+                       
+                        <div class="card-footer d-flex justify-content-center bg-dark">
+                            <a href="#" class="button is-light">Know More</a>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="data:image/jpeg;base64,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"
+                                        class="card-img-top" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h1>Yakshagana</h1>
+                                    <p>Yakshagana, from Karnataka, combines dance, music, and drama in vibrant
+                                        performances, depicting mythological stories with elaborate costumes and
+                                        traditional music and the region with theatrical flair</p>
+                                </div>
+                            </div>
+                            <div class="card-footer d-flex justify-content-center bg-dark">
+                                <a href="#" class="button is-light">Know More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
